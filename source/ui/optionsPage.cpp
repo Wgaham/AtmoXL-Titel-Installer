@@ -16,7 +16,7 @@
 
 namespace inst::ui {
     extern MainApplication *mainApp;
-    std::vector<std::string> languageStrings = {"English", "日本語", "Français", "Deutsch", "Italiano", "Español", "한국전통", "Português", "Русский", "簡体中文","繁體中文"};
+    std::vector<std::string> languageStrings = {"English", "日本語", "Français", "Deutsch", "Italiano", "Español", "한국전통", "Português", "Русский", "简体中文","繁體中文"};
     static s32 prev_touchcount = 0;
     static std::string getFreeSpaceText = nx::fs::GetFreeStorageSpace();
     static std::string getFreeSpaceOldText = getFreeSpaceText;
